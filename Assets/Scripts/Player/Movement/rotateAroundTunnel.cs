@@ -12,6 +12,7 @@ public class rotateAroundTunnel : MonoBehaviour
     {
         if (!FindObjectOfType<GroundCheck>().hitWall)
         {
+			//test wrote this from nano from terminal locally
             tunnel.Rotate(new Vector3(0,1,0),input.x*speed*Time.deltaTime);
         }
         else
